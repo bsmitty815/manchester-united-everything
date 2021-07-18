@@ -33,7 +33,7 @@ function CurrentStats() {
 
     return (
         <div>
-            <h1>EPL 2020/2021 Stats</h1>
+            <h1>EPL 2021/2022 Stats</h1>
             <div class="allTimeStats-container">
             <ul class="allTimeStats-container">
                 <div class="allTimeStats-item">
