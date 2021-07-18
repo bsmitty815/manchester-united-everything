@@ -9,13 +9,13 @@ function Header() {
 
 
     return (
-        <div class="header">
+        <div className="header">
 
-
-            <table class="header">
+            <div>
+            <table className="header">
             <tr>
                 <th>
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/180px-Manchester_United_FC_crest.svg.png" class="header-image" alt="manchester-united" />
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/180px-Manchester_United_FC_crest.svg.png" className="header-image" alt="manchester-united" />
                 </th>
                 <th>
                     <h1>Manchester United</h1>
@@ -23,6 +23,8 @@ function Header() {
             </tr>
 
             </table>
+            </div>
+
             <p>Updated On: {date}</p>
         </div>
     )

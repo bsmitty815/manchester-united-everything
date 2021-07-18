@@ -53,13 +53,15 @@ code {
 }
 
 .header-image {
-  max-width: 100px;
+  margin: auto;
+  text-align: center;
+  max-height: 100px;
 }
 
 .header {
   margin: auto;
-  display: center;
-  display: flex;
+  text-align: center;
+
 }
 
 .allTimeStats-container {
