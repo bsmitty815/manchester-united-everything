@@ -15,10 +15,13 @@ function App() {
             <header className="header">
               <Header />
             </header>
-
-            <div id="main">
-              <article>
-                  <Switch>
+            <table>
+              <tr>
+                <th className="navBar">
+                <NavBar />
+                </th>
+                <th>
+                <Switch>
                         <Route path="/Home">
                             <Home />
                         </Route>
@@ -35,11 +38,10 @@ function App() {
                             <AllTimeStats />
                         </Route>
                   </Switch>
-              </article>
-              <nav>
-                  <NavBar />
-              </nav>
-            </div>
+                </th>
+              </tr>
+            </table>
+            
     </div>
   );
 }

@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.navBar {
+  vertical-align: top;
+}
+
 
 .playerProfile-container {
   /* We first create a flex layout context */
