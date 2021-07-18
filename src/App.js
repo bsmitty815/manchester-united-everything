@@ -10,7 +10,7 @@ import PlayerQuotes from "./components/PlayerQuotes"
 
 function App() {
   return (
-    <div className="App">
+    <div className="body">
             <header className="header">
               <Header />
             </header>
