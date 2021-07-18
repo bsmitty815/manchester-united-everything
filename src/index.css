@@ -62,6 +62,8 @@ code {
   margin: auto;
   text-align: center;
   height: fit-content;
+  background: yellowgreen;
+  min-height: 120px;
 
 }
 

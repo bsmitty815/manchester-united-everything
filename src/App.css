@@ -27,7 +27,7 @@
  header, footer, article, nav, aside {
    padding: 1em;
  }
- header, footer {
+ footer {
    background: yellowgreen;
-   height:fit-content;
+
  }
