@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.playerProfile-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.playerProfile-item {
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: rgb(223, 13, 13);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.player-image {
+  min-width: 100px;
+}
+
+.player-quotes {
+  font-size: 20px;
+}
+
+.header-image {
+  max-width: 150px;
+}
+
+.header {
+  margin: auto;
+  display: center;
+}
+
+.allTimeStats-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.allTimeStats-item {
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: rgb(223, 13, 13);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
