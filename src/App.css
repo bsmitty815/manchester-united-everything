@@ -29,5 +29,5 @@
  }
  header, footer {
    background: yellowgreen;
-   height: 20vh;
+   height:fit-content;
  }
