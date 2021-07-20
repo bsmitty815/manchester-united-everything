@@ -14,16 +14,12 @@ function App() {
             <header className="header">
               <Header />
             </header>
-            <table>
-              <tr>
-                <th className="navBar">
+                <div className="navBar">
                 <NavBar />
-                </th>
-                <th>
+                </div>
+                <div>
                 <Switch>
-                        <Route path="/Home">
-                            <Home />
-                        </Route>
+
                         <Route path="/PlayerProfile">
                             <PlayerProfile />
                         </Route>
@@ -36,10 +32,12 @@ function App() {
                         <Route path="/AllTimeStats">
                             <AllTimeStats />
                         </Route>
+                        <Route path="/">
+                            <Home />
+                        </Route>
                   </Switch>
-                </th>
-              </tr>
-            </table>
+                </div>
+
             
     </div>
   );
