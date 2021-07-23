@@ -7,6 +7,7 @@ import CurrentStats from "./components/CurrentStats"
 import AllTimeStats from "./components/AllTimeStats"
 import { Switch, Route } from "react-router-dom"
 import PlayerQuotes from "./components/PlayerQuotes"
+import CurrentFixtures from "./components/CurrentFixtures"
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
                         </Route>
                         <Route path="/CurrentStats">
                             <CurrentStats />
+                        </Route>
+                        <Route path="/CurrentFixtures">
+                            <CurrentFixtures />
                         </Route>
                         <Route path="/PlayerQuotes">
                             <PlayerQuotes />

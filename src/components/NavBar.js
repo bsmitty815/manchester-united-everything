@@ -29,6 +29,13 @@ function NavBar() {
                     </Button>
 
             </NavLink>
+            <NavLink to="/CurrentFixtures">
+
+                <Button inverted color='red'>
+                    Fixtures
+                </Button>
+                
+            </NavLink>
             <NavLink to="/PlayerQuotes">
 
                     <Button inverted color='red'>

@@ -17,6 +17,26 @@ code {
   text-align: center;
 }
 
+.home {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.current-fixtures {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
 
 .playerProfile-container {
   /* We first create a flex layout context */
