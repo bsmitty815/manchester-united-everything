@@ -6,12 +6,11 @@ function PlayerQuotes() {
 
 
     const quoteDisplay = quotes.map((quote) => {
-        return <div key={quote.id}><p class="player-quotes">"{quote.quote}"</p><p class="player-quotes">-{quote.name}</p><p></p></div>
+        return <div key={quote.id}><p className="player-quotes">"{quote.quote}"</p><p classNAme="player-quotes">-{quote.name}</p><p style={{flex: 1, height: 1, backgroundColor: 'black'}}></p><p></p></div>
     })
 
     return (
         <div>
-            <h1>player quotes</h1>
             {quoteDisplay}
         </div>
     )

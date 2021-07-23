@@ -21,28 +21,28 @@ const playerQuotes = [
     },
     {
         "id": 5,
-        "quote": "",
-        "name": ""
+        "quote": "My mind was always set on joining Manchester United. How can you not go to United? I don’t play for money. I play for glory and winning championships. I’m happy here. I hear people complain about the weather, there’s nothing to do and the food. But, for me, it’s not like that. I play for a club I love, the biggest club, and everything else doesn’t matter.",
+        "name": "Dimitar Berbatov"
     },
     {
         "id": 6,
-        "quote": "",
-        "name": ""
+        "quote": "Paul Scholes is my favourite player. He epitomises the spirit of Manchester United and everything that is good about football.",
+        "name": "Sir Bobby Charlton"
     },
     {
         "id": 7,
-        "quote": "",
-        "name": ""
+        "quote": "There is no evidence that changing your managers repeatedly leads to success, but there is evidence at Manchester United, I was managing there for 26 years I won 38 trophies.",
+        "name": "Sir Alex Ferguson"
     },
     {
         "id": 8,
-        "quote": "",
-        "name": ""
+        "quote": "If you'd given me the choice of going out and beating four men and smashing a goal in from thirty yards against Liverpool or going to bed with Miss World, it would have been a difficult choice. Luckily, I had both.",
+        "name": "George Best"
     },
     {
         "id": 9,
-        "quote": "",
-        "name": ""
+        "quote": "You’re trying to put yourself in that moment and trying to prepare yourself, to have a ‘memory’ before the game. I don’t know if you’d call it visualizing or dreaming, but I’ve always done it, my whole life.",
+        "name": "Wayne Rooney"
     }
 ]
 

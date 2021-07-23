@@ -75,6 +75,9 @@ td {
 
 .player-quotes {
   font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .header-image {
