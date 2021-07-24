@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/manchester-united-everything/static/css/main.c0306ecf.chunk.css",
-    "main.js": "/manchester-united-everything/static/js/main.91b384cf.chunk.js",
-    "main.js.map": "/manchester-united-everything/static/js/main.91b384cf.chunk.js.map",
+    "main.js": "/manchester-united-everything/static/js/main.703bb2bd.chunk.js",
+    "main.js.map": "/manchester-united-everything/static/js/main.703bb2bd.chunk.js.map",
     "runtime-main.js": "/manchester-united-everything/static/js/runtime-main.f3defc4d.js",
     "runtime-main.js.map": "/manchester-united-everything/static/js/runtime-main.f3defc4d.js.map",
     "static/css/2.b193220b.chunk.css": "/manchester-united-everything/static/css/2.b193220b.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.b193220b.chunk.css",
     "static/js/2.c51f7c0c.chunk.js",
     "static/css/main.c0306ecf.chunk.css",
-    "static/js/main.91b384cf.chunk.js"
+    "static/js/main.703bb2bd.chunk.js"
   ]
 }
